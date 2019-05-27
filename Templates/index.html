@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='bootstrap.css')}}">
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='panels.css')}}">
+   
+    
+
+
+</head>
+
+
+<!-- Header and nav start -->
+<header>
+<title>
+	
+</title>    
+</header>
+<body>
+<div class="container-fluid">
+
+
+    <div class="row justify-content-center">
+        <div class="col-10">
+        	
+         <br>
+            <br>
+
+
+
+            <ul class="panels next" id="korttivisa">
+                 <br>
+                <h1 class="text-center">Virtual Coder Theory</h1>
+                <li>
+                    <div class="back" style="background: #267df4" aria-haspopup="true">Start</div>
+
+                </li>
+                <li>
+                    <div class="back" style="background: #f5c6cb">Using</div>
+
+                </li>
+                <li>
+                    <div class="back" style="background: greenyellow">Virtual</div>
+
+                </li>
+                <li>
+                    <div class="back" style="background: red">Coder Theory?</div>
+
+                </li>
+            </ul>
+
+            <div class="col text-center">
+            	
+				
+            </div>
+            	<div class="col text-center">
+            	<br>
+            	
+                <button class="col-3" id="b1">Start</button>
+                
+                <br>
+                <a class="align-content-center" href="{{ url_for('index') }}">Start Again</a> 		
+            	</div>	
+                <ul class="panels next hidden"  id="questioncards0">
+
+                <br>
+                <h3 class="text-center" id="question">Your work file is in hex format?</h3>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">No I will convert later</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #f5c6cb">No</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">Yes, it is .txt file containing hex</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back"  style="background: greenyellow">Yes, I uploaded in hex format</div>
+                </a>
+                </li>
+                </ul>
+
+
+                <ul class="panels next hidden"    id="questioncards1">
+                <br>
+                <h3 class="text-center" id="question2">Is your file part of bigger file?</h3>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">No</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #f5c6cb">No but I will make that</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back"  style="background: greenyellow">Yes definetely</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">Soon it will be</div>
+                </a>
+                </li>
+                </ul>
+
+                <ul class="panels next hidden"  id="questioncards2">
+                <br>
+
+
+                <h3 class="text-center" id="question3">Is your file copy of certain range of hex addresses?</h3>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #f5c6cb" aria-haspopup="true">No</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #267df4">No but I can upload that</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back"  style="background: greenyellow">Yes</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">No I do that later</div>
+                </a>
+                </li>
+
+                </ul>
+
+                <ul class="panels next hidden"    id="questioncards3">
+                <br>
+
+                <h3 class="text-center" id="question4">What is your probabilty current 0 stream of your work file, you can see that in opening pop up page of page</h3>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">Below 1</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #f5c6cb">More than one</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: greenyellow">Almost zero</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">Almost 1</div>
+                </a>
+                </li>
+
+                </ul>
+
+                <ul class="panels next hidden" id="questioncards4">
+
+                <br>
+
+                <h3 class="text-center" id="question5">If your probability is almost 1 think of upload hex sequence again</h3>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">Yes I will do that later</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back"  style="background: #f5c6cb">It was something like half</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: greenyellow">It doesn't matter</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">I don't know what is this</div>
+                </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="panels next hidden" id="questioncards5">
+
+                <br>
+
+                <h3 class="text-center" id="question5">What is your file purpose?</h3>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">I don't know, I only test</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back"  style="background: #f5c6cb">It is for games or apps</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: greenyellow">It doesn't matter</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">I don't know what is this</div>
+                </a>
+                </li>
+            </ul>
+        </div>
+
+                <ul class="panels next hidden" id="questioncards6">
+                <br>
+
+                <h3 class="text-center" id="question4">What you thin which is the correct princibal of changing files?</h3>
+                <li><a role="button" class="click ansver" data-vastaus="1" tabindex="0">
+                    <div class="back" style="background: #267df4" aria-haspopup="true">Looking for original app and its structure and compare</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: #f5c6cb">I don't know what is this</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: greenyellow">Only planning</div>
+                </a>
+                </li>
+                <li><a role="button" class="click ansver" tabindex="0">
+                    <div class="back" style="background: red">It is in only theory possible</div>
+                </a>
+                </li>
+
+                </ul>
+
+        <div class="row">
+
+                    <li class="hidden oikeinkuvat" id="images0">
+                    <figure>
+                        <img class="img-fluid">
+                        <p>Succeed</p>
+                        <p id="lkmr">0</p>
+                     
+                    </figure>
+                    
+                    <button type="button" id="b2">Download Result</button> 
+                    </li>
+                    
+                    
+                    <li class="hidden vaarinkuvat" id="vaarin">
+                    
+                    <figure>
+                        <img class="img-fluid">
+                        <p>Not succeed</p>
+                        <p id="lkmw">0</p>
+                       
+                     
+                    </figure>
+                    
+                    <p>Upload your file</p>
+            		<p>
+					{% with messages = get_flashed_messages() %}
+	  				{% if messages %}
+					<ul class=flashes>
+					{% for message in messages %}
+		  			<li>{{ message }}</li>
+					{% endfor %}
+					</ul>
+	  				{% endif %}
+					{% endwith %}
+					</p>
+					<form method="post" action="/" enctype="multipart/form-data">
+    				<dl>
+					<p>
+					<input type="file" name="file" multiple="true" autocomplete="off" required>
+					</p>
+    				</dl>
+    				<p>
+					<input type="submit" value="Submit">
+					</p>
+					</form>
+                    </li>
+           			</ul>
+            
+    </div>
+        <div class="container-fluid">
+            <footer class="row fixed-bottom">
+                <div class="col-12 navbar-dark bg-primary">
+                    <p class="h6 text-center">Virtual Coder</p>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+   <script type="text/javascript" src="{{ url_for('static', filename='korttivisa.js') }}"></script>
+</body>
+</html>

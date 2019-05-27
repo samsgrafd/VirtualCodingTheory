@@ -1,0 +1,1 @@
+start searchprofiler.bat>>out.csv
