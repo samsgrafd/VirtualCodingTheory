@@ -18,7 +18,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 
 
 def gen():
-	os.system("clouddrive/VirtualCodingTheory/bot.sh")
 	print (os.getcwd())
 
 def allowed_file(filename):
