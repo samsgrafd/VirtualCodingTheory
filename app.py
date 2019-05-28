@@ -10,7 +10,7 @@ import os
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = './'
+UPLOAD_FOLDER = 'static'
 
 app.secret_key = "secret key"
 ALLOWED_EXTENSIONS = set(['txt'])
