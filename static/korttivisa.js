@@ -34,7 +34,7 @@ var i = 0;
 var binaryCount = 0;
 
 function addToSucceed(){
-inputStrBin = 'out2.txt';
+inputStrBin = 'out.txt';
 f = open(inputStrBin,'w');
 
 current = '';
