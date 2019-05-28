@@ -6,8 +6,8 @@ inputStrBin = ""
 binaryCount = 0
 propability = 1 
 output = ""
-output = "out2.txt";
-f = open("2.txt", 'r')
+output = "out.txt";
+f = open("in.txt", 'r')
 inputStrBin = f.read()
 f.close()
 print("this is inputStrBin:" + inputStrBin)	
