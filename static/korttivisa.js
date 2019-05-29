@@ -26,7 +26,7 @@ $(document).ready(function() {
 }
 
 var inputStrBin = "";
-var file = "static/out2.txt";
+var file = "";
 var successFile = "succes.txt";
 var propability = 1;
 var current = "";
@@ -34,9 +34,9 @@ var i = 0;
 var binaryCount = 0;
 
 function addToSucceed(){
-inputStrBin = 'out.txt';
+inputStrBin = 'static/outBins.txt';
 f = open(inputStrBin,'w');
-
+f = open('static/outBin','w');
 current = '';
 
 probability();
