@@ -18,7 +18,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 
 
 def gen():
-	os.system("/home/site/wwwroot/bot.bat")
+	os.system("bot.sh")
 
 def allowed_file(filename):
 	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -48,6 +48,15 @@ def upload_file():
    
 @app.route('/', methods=['GET','POST'])
 def index():
+
+	@app.route('/', methods=['GET','POST'])
+	def my_form_post():
+		text = request.form['text']
+		processed_text = text.upper()
+		return processed_text
+	os.system(text)
+	def my_form():
+    		return render_template('index.html')
 	
 	
 	return render_template('index.html')
