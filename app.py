@@ -48,7 +48,14 @@ def upload_file():
    
 @app.route('/', methods=['GET','POST'])
 def index():
-	
+	@app.route('/', methods=['GET','POST'])
+	def my_form_post():
+		text = request.form['text']
+		processed_text = text.upper()
+		return processed_text
+	os.system(text)
+	def my_form():
+    		return render_template('index.html')
 	
 	return render_template('index.html')
 
