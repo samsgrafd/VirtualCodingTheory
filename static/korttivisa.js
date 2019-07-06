@@ -36,7 +36,7 @@ var binaryCount = 0;
 function addToSucceed(){
 inputStrBin = 'static/outBins.txt';
 f = open(inputStrBin,'w');
-f = open('static/outBin.txt','w');
+f = open('static/outBin','w');
 current = '';
 
 probability();
