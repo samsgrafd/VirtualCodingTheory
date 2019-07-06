@@ -1,0 +1,23 @@
+käytetään samaa metodia kuin visassa ja käytetään html + jquery python
+näyttämään html elementtejä valintojen mukaan ja käytetään panels css
+tähän
+
+Paneleilla tehdään valintoja että mitä moodia käytetään eli sen rakenne
+voi olla sama kuin visassa
+
+ja sitten on html elementti jossa on texti ja voi painaa seuraavaan
+tehtiin tai alkuun
+
+tämän transscryptin vois kokeilla asentaa pythonanywheriin
+ja uploadata tämän sitten sinne
+
+jquery voi tosin olla samanpohjan mukainen kuin mitä sulla on visassa
+tai vaa muunnat sen pythoniksi
+
+muunna kaikki tiedostot sopivaan muotoon tätä varten
+
+html rakenne pitää olla jotai sellaista että siinä annetaan vaihtoehtoja ensin
+ja sitten voi tulla texti laatikko esim text input ja sitten taas valintoja
+ja taas textiä ja sitten alusta
+ 
+
