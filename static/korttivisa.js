@@ -34,7 +34,7 @@ var i = 0;
 var binaryCount = 0;
 
 function addToSucceed(){
-inputStrBin = 'static/outbin.txt';
+inputStrBin = 'static/outbins.txt';
 f = open(inputStrBin,'w');
 
 current = '';
