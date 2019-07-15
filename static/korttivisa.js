@@ -26,7 +26,7 @@ $(document).ready(function() {
 }
 
 var inputStrBin = "";
-var file = "static/out2.txt";
+var file = "static/outbin.txt";
 var successFile = "succes.txt";
 var propability = 1;
 var current = "";
