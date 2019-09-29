@@ -1,0 +1,1 @@
+['Namibia' 'Iceland' 'Russia' ... 'Vietnam' 'Sierra Leone' 'Eritrea']['Household' 'Baby Food' 'Meat' ... 'Personal Care' 'Clothes' 'Vegetables']

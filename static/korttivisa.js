@@ -32,10 +32,19 @@ var propability = 1;
 var current = "";
 var i = 0;
 var binaryCount = 0;
+var result = "";
+
 
 function addToSucceed(){
-inputStrBin = 'static/outbins.txt';
+
+inputStrBin = 'static/outbins.csv';
+
 f = open(inputStrBin,'w');
+
+result = 'static/results.html'
+
+//a = open(result, 'w')
+
 
 current = '';
 
@@ -44,6 +53,7 @@ probability();
 $(function(){
 
 file = inputStrBin;
+
 
 });
 }

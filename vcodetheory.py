@@ -1,6 +1,6 @@
-Import os
-Import re
-Import sys
+import os
+import re
+import sys
 
 Inall=""
 Inb="01"
@@ -17,16 +17,13 @@ print("this is inputStrBin:" + Inall)
 
 def Agroup():
 
-	if  Inall="'011'":
+        Inall is"'011'"
+        if Inb in Inall:
+                        aplusb()
 
+def Bgroup():
+        Inb="'1'"
 	
-	
-def function():
- 	pass Bgroup():
-	if Inall="'01'"
-	if Inb in Inall:
-		aplusb()
-		
-	
-Def aplusb():
+def aplusb():
 	Agroup() + Bgroup()
+print("this is Inall:" + Inall + Inb)	
